@@ -1,0 +1,76 @@
+header{     
+    border : 1px solid blue;   
+   margin :20px;
+    background :blue;
+    text-align: center;
+    font-size: 100px;
+}
+
+
+
+    *{     
+        padding : 0;    
+         margin : 0;    
+        box-sizing : border-box;    
+        list-style: none; 
+    }    
+    body{   
+       min-height: 1000px;
+       background: white;
+    }
+    
+    .container{     
+        max-width : 1080px;     
+        margin : auto;     
+        background : #fff;     
+        overflow : hidden;     
+        display: flex;
+        flex-wrap:wrap;
+
+    }
+
+    .hias-tabel{
+        background: white;
+        flex :1;
+        margin : 10px;
+        text transform: uppercase;
+
+    }
+
+    
+
+    .isimenu{
+        padiing: 2px 5px;
+    }
+    .isimenu li {
+        margin:14px;
+        font-size: 14x;
+        text-align: left;
+    }
+    .berita{
+        padiing: 2px 5px;
+    }
+    .berita li{
+        margin:14px 0;
+        font-size: 14x;
+        text-align: left;
+        float: ;
+    }
+    .daftarWisata{
+        padding: 2px 5px;
+    }
+    .more li{
+        margin:14px 0;
+        font-size: 14x;
+        text-align: left;
+       
+    }
+
+
+    footer{     
+        border : 1px solid blue;   
+        margin :20px;
+        background :blue;
+        text-align: center;
+        font-size: 50px;
+    }
